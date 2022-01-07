@@ -17,12 +17,12 @@ BuildRequires : buildreq-distutils3
 Provides: greenlet
 Provides: greenlet-python
 Provides: greenlet-python3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pytest
 BuildRequires : python3-dev
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 .. This file is included into docs/history.rst
