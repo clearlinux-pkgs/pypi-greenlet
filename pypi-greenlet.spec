@@ -4,7 +4,7 @@
 #
 Name     : pypi-greenlet
 Version  : 1.1.2
-Release  : 86
+Release  : 87
 URL      : https://files.pythonhosted.org/packages/0c/10/754e21b5bea89d0e73f99d60c83754df7cc64db74f47d98ab187669ce341/greenlet-1.1.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/0c/10/754e21b5bea89d0e73f99d60c83754df7cc64db74f47d98ab187669ce341/greenlet-1.1.2.tar.gz
 Summary  : Lightweight in-process concurrent programming
