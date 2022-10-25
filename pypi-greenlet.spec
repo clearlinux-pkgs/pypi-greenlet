@@ -4,7 +4,7 @@
 #
 Name     : pypi-greenlet
 Version  : 1.1.3.post0
-Release  : 91
+Release  : 92
 URL      : https://files.pythonhosted.org/packages/ea/37/e54ce453b298e890f59dba3db32461579328a07d5b65e3eabf80f971c099/greenlet-1.1.3.post0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ea/37/e54ce453b298e890f59dba3db32461579328a07d5b65e3eabf80f971c099/greenlet-1.1.3.post0.tar.gz
 Summary  : Lightweight in-process concurrent programming
