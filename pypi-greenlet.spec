@@ -4,7 +4,7 @@
 #
 Name     : pypi-greenlet
 Version  : 1.1.3.post0
-Release  : 92
+Release  : 93
 URL      : https://files.pythonhosted.org/packages/ea/37/e54ce453b298e890f59dba3db32461579328a07d5b65e3eabf80f971c099/greenlet-1.1.3.post0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ea/37/e54ce453b298e890f59dba3db32461579328a07d5b65e3eabf80f971c099/greenlet-1.1.3.post0.tar.gz
 Summary  : Lightweight in-process concurrent programming
@@ -97,7 +97,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1665445164
+export SOURCE_DATE_EPOCH=1666707095
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
@@ -140,7 +140,7 @@ popd
 
 %files dev
 %defattr(-,root,root,-)
-/usr/include/python3.10/greenlet/greenlet.h
+/usr/include/python3.11/greenlet/greenlet.h
 
 %files filemap
 %defattr(-,root,root,-)
