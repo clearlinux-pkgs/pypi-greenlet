@@ -1,5 +1,5 @@
 PKG_NAME := pypi-greenlet
-URL = https://files.pythonhosted.org/packages/d4/e7/e41e5150909f58d3161b7ab680d17bb8d47dbbc45385f07a870164d3d02f/greenlet-2.0.0.post0.tar.gz
+URL = https://files.pythonhosted.org/packages/fd/6a/f07b0028baff9bca61ecfcd9ee021e7e33369da8094f00eff409f2ff32be/greenlet-2.0.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
