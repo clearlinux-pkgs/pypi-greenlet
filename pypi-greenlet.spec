@@ -6,10 +6,10 @@
 # autospec commit: c1050fe
 #
 Name     : pypi-greenlet
-Version  : 3.0.2
-Release  : 106
-URL      : https://files.pythonhosted.org/packages/d2/62/c657462190d198a45f37e613f910d27cfe8fed6faaeddec004d75dba6811/greenlet-3.0.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/d2/62/c657462190d198a45f37e613f910d27cfe8fed6faaeddec004d75dba6811/greenlet-3.0.2.tar.gz
+Version  : 3.0.3
+Release  : 107
+URL      : https://files.pythonhosted.org/packages/17/14/3bddb1298b9a6786539ac609ba4b7c9c0842e12aa73aaa4d8d73ec8f8185/greenlet-3.0.3.tar.gz
+Source0  : https://files.pythonhosted.org/packages/17/14/3bddb1298b9a6786539ac609ba4b7c9c0842e12aa73aaa4d8d73ec8f8185/greenlet-3.0.3.tar.gz
 Summary  : Lightweight in-process concurrent programming
 Group    : Development/Tools
 License  : MIT Python-2.0
@@ -71,10 +71,10 @@ python3 components for the pypi-greenlet package.
 
 
 %prep
-%setup -q -n greenlet-3.0.2
-cd %{_builddir}/greenlet-3.0.2
+%setup -q -n greenlet-3.0.3
+cd %{_builddir}/greenlet-3.0.3
 pushd ..
-cp -a greenlet-3.0.2 buildavx2
+cp -a greenlet-3.0.3 buildavx2
 popd
 
 %build
@@ -82,7 +82,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1702924520
+export SOURCE_DATE_EPOCH=1703258859
 export GCC_IGNORE_WERROR=1
 CLEAR_INTERMEDIATE_CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 CLEAR_INTERMEDIATE_FCFLAGS="$CLEAR_INTERMEDIATE_FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
